@@ -1,0 +1,629 @@
+{
+	"audioFiles": [
+		{
+			"name": "Cuisine's Title Screen",
+			"game": "Cooking Mama Cuisine (Apple Arcade)",
+			"file": "Cuisine/TITLE.mp3"
+		},
+		{
+			"name": "Top Menu",
+			"game": "Cooking Mama Cuisine (Apple Arcade)",
+			"file": "Cuisine/MENU1.mp3"
+		},
+		{
+			"name": "Choose the ingredients",
+			"game": "Cooking Mama Cuisine (Apple Arcade)",
+			"file": "Cuisine/MENU2.mp3"
+		},
+		{
+			"name": "Cooking Theme 1",
+			"game": "Cooking Mama Cuisine (Apple Arcade)",
+			"file": "Cuisine/GAME1.mp3"
+		},
+		{
+			"name": "Cooking Theme 2",
+			"game": "Cooking Mama Cuisine (Apple Arcade)",
+			"file": "Cuisine/GAME2.mp3"
+		},
+		{
+			"name": "Minigame finished!",
+			"game": "Cooking Mama Cuisine (Apple Arcade)",
+			"file": "Cuisine/MGResults.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Cooking Mama Cuisine (Apple Arcade)",
+			"file": "Cuisine/RESULT.mp3"
+		},
+
+		{
+			"name": "Cooking Mama's Theme",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/Title.mp3"
+		},
+		{
+			"name": "Menu",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/Menu.mp3"
+		},
+		{
+			"name": "Cooking Theme 1",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/Cooking1.mp3"
+		},
+		{
+			"name": "Cooking Theme 2",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/Cooking2.mp3"
+		},
+		{
+			"name": "Cooking Theme 3",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/Cooking3.mp3"
+		},
+		{
+			"name": "Cooking Theme 4",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/Cooking4.mp3"
+		},
+		{
+			"name": "Cooking Theme 5",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/Cooking5.mp3"
+		},
+		{
+			"name": "Minigame finished!",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/MGResults.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Cooking Mama (Nintendo DS)",
+			"file": "CM1DS/FinalResults.mp3"
+		},
+		
+		{
+			"name": "Welcome to a Dinner with Friends!",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/Title.mp3"
+		},
+		{
+			"name": "What do you want to cook today?",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/Menu.mp3"
+		},
+		{
+			"name": "Follow the steps!",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/RecipeSteps.mp3"
+		},
+		{
+			"name": "Cooking Theme 1",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/Cooking1.mp3"
+		},
+		{
+			"name": "Cooking Theme 2",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/Cooking2.mp3"
+		},
+		{
+			"name": "You failed...",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/MGFailed.mp3"
+		},
+		{
+			"name": "Cooking Theme 3",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/Cooking3.mp3"
+		},
+		{
+			"name": "Minigame finished!",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/MGPerfect.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/FinalResults.mp3"
+		},
+		{
+			"name": "Customization",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/Customizing.mp3"
+		},
+		{
+			"name": "Pictures Book",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/PicturesBook.mp3"
+		},
+		{
+			"name": "Challenge Theme 1",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/Challenge1.mp3"
+		},
+		{
+			"name": "Challenge Theme 2",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/Challenge2.mp3"
+		},
+		{
+			"name": "Challenge Results",
+			"game": "Cooking Mama 2: Dinner With Friends (DS)",
+			"file": "CM2DS/ChallengeResults.mp3"
+		},
+		
+		{
+			"name": "Welcome to Shop & Chop!",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/Title.mp3"
+		},
+		{
+			"name": "What do you want to cook today?",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/Menu.mp3"
+		},
+		{
+			"name": "Follow the steps!",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/RecipeSteps.mp3"
+		},
+		{
+			"name": "Cooking Theme 1",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/Cooking1.mp3"
+		},
+		{
+			"name": "Cooking Theme 2",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/Cooking2.mp3"
+		},
+		{
+			"name": "You failed...",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/MGFailed.mp3"
+		},
+		{
+			"name": "Cooking Theme 3",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/Cooking3.mp3"
+		},
+		{
+			"name": "Cooking Theme 4",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/Cooking4.mp3"
+		},
+		{
+			"name": "Minigame finished!",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/MGPerfect.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/FinalResults.mp3"
+		},
+		{
+			"name": "Customization",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/Customizing.mp3"
+		},
+		{
+			"name": "Pictures Book",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/PicturesBook.mp3"
+		},
+		{
+			"name": "Challenge Theme",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/Challenge.mp3"
+		},
+		{
+			"name": "Challenge Results",
+			"game": "Cooking Mama 3: Shop & Chop (DS)",
+			"file": "CM3/ChallengeResults.mp3"
+		},
+		
+		{
+			"name": "Welcome to Gardening Mama!",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/Title.mp3"
+		},
+		{
+			"name": "Main Menu",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/Menu.mp3"
+		},
+		{
+			"name": "My Garden",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/MyGarden.mp3"
+		},
+		{
+			"name": "How is it going?",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/HowIsItGoing.mp3"
+		},
+		{
+			"name": "Gardening Theme 1",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/Gardening1.mp3"
+		},
+		{
+			"name": "Gardening Theme 2",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/Gardening2.mp3"
+		},
+		{
+			"name": "Minigame finished!",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/MGResults1.mp3"
+		},
+		{
+			"name": "It's done, come back soon!",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/MGResults2.mp3"
+		},
+		{
+			"name": "New plants unlocked",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/NewPlantsUnlocked.mp3"
+		},
+		{
+			"name": "Calling for help!!",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/CallingForHelp.mp3"
+		},
+		{
+			"name": "We need some help!!",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/WeNeedSomeHelp.mp3"
+		},
+		{
+			"name": "You failed...",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/Failed.mp3"
+		},
+		{
+			"name": "Pipette Panic!",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/PipettePanic.mp3"
+		},
+		{
+			"name": "It Grew!",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/ItGrew.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/FinalResults.mp3"
+		},
+		{
+			"name": "Special Plants Chess",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/SpecialPlantsChess.mp3"
+		},
+		{
+			"name": "Customizing My Garden",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/CustomizingMyGarden.mp3"
+		},
+		{
+			"name": "Credits",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/Credits.mp3"
+		},
+		{
+			"name": "Good Night",
+			"game": "Gardening Mama (Nintendo DS)",
+			"file": "GM1/GoodNight.mp3"
+		},
+		
+		{
+			"name": "Welcome to Crafting Mama!",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/Title.mp3"
+		},
+		{
+			"name": "What do you want to craft today?",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/Menu.mp3"
+		},
+		{
+			"name": "Crafting Theme 1",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/Crafting1.mp3"
+		},
+		{
+			"name": "Crafting Theme 2",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/Crafting2.mp3"
+		},
+		{
+			"name": "Crafting Theme 3",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/Crafting3.mp3"
+		},
+		{
+			"name": "Crafting Theme 4",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/Crafting4.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/MGFinish.mp3"
+		},
+		{
+			"name": "Customization",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/Customizing.mp3"
+		},
+		{
+			"name": "Credits",
+			"game": "Crafting Mama (Nintendo DS)",
+			"file": "Crafting/Credits.mp3"
+		},
+		
+		{
+			"name": "Welcome to Cooking Mama: Cook Off!",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/MainTheme.mp3"
+		},
+		{
+			"name": "Cooking Theme 1",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/Cooking1.mp3"
+		},
+		{
+			"name": "Cooking Theme 2",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/Cooking2.mp3"
+		},
+		{
+			"name": "American Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/AmericanFriend.mp3"
+		},
+		{
+			"name": "Chinese Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/ChineseFriend.mp3"
+		},
+		{
+			"name": "English Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/EnglishFriend.mp3"
+		},
+		{
+			"name": "French Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/FrenchFriend.mp3"
+		},
+		{
+			"name": "German Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/GermanFriend.mp3"
+		},
+		{
+			"name": "Indian Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/IndianFriend.mp3"
+		},
+		{
+			"name": "Italian Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/ItalianFriend.mp3"
+		},
+		{
+			"name": "Japanese Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/JapaneseFriend.mp3"
+		},
+		{
+			"name": "Russian Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/RussianFriend.mp3"
+		},
+		{
+			"name": "Spanish Friend",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/SpanishFriend.mp3"
+		},
+		{
+			"name": "Credits",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/Credits.mp3"
+		},
+		{
+			"name": "Results (Unused)",
+			"game": "Cooking Mama: Cook Off (Nintendo Wii)",
+			"file": "CM1Wii/ResultsUnused.mp3"
+		},
+		
+		{
+			"name": "Welcome to my World Kitchen!",
+			"game": "Cooking Mama 2: World Kitchen (Wii)",
+			"file": "CM2Wii/Title.mp3"
+		},
+		{
+			"name": "Main Menu",
+			"game": "Cooking Mama 2: World Kitchen (Wii)",
+			"file": "CM2Wii/RecipeMenu.mp3"
+		},
+		{
+			"name": "Cooking Theme",
+			"game": "Cooking Mama 2: World Kitchen (Wii)",
+			"file": "CM2Wii/Cooking.mp3"
+		},
+		{
+			"name": "Mistake Panic!",
+			"game": "Cooking Mama 2: World Kitchen (Wii)",
+			"file": "CM2Wii/MistakePanic.mp3"
+		},
+		{
+			"name": "Challenge Theme 1",
+			"game": "Cooking Mama 2: World Kitchen (Wii)",
+			"file": "CM2Wii/Challenge1.mp3"
+		},
+		{
+			"name": "Challenge Theme 2",
+			"game": "Cooking Mama 2: World Kitchen (Wii)",
+			"file": "CM2Wii/Challenge2.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Cooking Mama 2: World Kitchen (Wii)",
+			"file": "CM2Wii/FinalResults.mp3"
+		},
+		{
+			"name": "Credits",
+			"game": "Cooking Mama 2: World Kitchen (Wii)",
+			"file": "CM2Wii/Credits.mp3"
+		},
+		
+		{
+			"name": "Welcome to my Magic Kitchen!",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/Title.mp3"
+		},
+		{
+			"name": "What do you want to cook today?",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/Menu.mp3"
+		},
+		{
+			"name": "Cooking Theme 1",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/Cooking1.mp3"
+		},
+		{
+			"name": "Cooking Theme 2",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/Cooking2.mp3"
+		},
+		{
+			"name": "Cooking Theme 3",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/Cooking3.mp3"
+		},
+		{
+			"name": "Cooking Theme 4",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/Cooking4.mp3"
+		},
+		{
+			"name": "Minigame finished!",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/MGFinish.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/FinalResults.mp3"
+		},
+		{
+			"name": "A Present for You!",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/PresentForYou.mp3"
+		},
+		{
+			"name": "Customization",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/Customization.mp3"
+		},
+		{
+			"name": "Challenge Theme",
+			"game": "Cooking Mama 4: Magic Kitchen (3DS)",
+			"file": "CM4/Challenges.mp3"
+		},
+		
+		{
+			"name": "Welcome, and Bon Appetit!",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Title.mp3"
+		},
+		{
+			"name": "What do you want to cook today?",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Menu.mp3"
+		},
+		{
+			"name": "Cooking Theme 1",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Cooking1.mp3"
+		},
+		{
+			"name": "Cooking Theme 2",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Cooking2.mp3"
+		},
+		{
+			"name": "Cooking Theme 3",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Cooking3.mp3"
+		},
+		{
+			"name": "Cooking Theme 4",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Cooking4.mp3"
+		},
+		{
+			"name": "Cooking Theme 5",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Cooking5.mp3"
+		},
+		{
+			"name": "Minigame finished!",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/MGFinish.mp3"
+		},
+		{
+			"name": "Final results!",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/FinalResults.mp3"
+		},
+		{
+			"name": "A Present for You!",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Congratulations.mp3"
+		},
+		{
+			"name": "Customization",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Customization.mp3"
+		},
+		{
+			"name": "Challenge Theme",
+			"game": "Cooking Mama 5: Bon Appetit (3DS)",
+			"file": "CM5/Challenges.mp3"
+		},
+		
+		{
+			"name": "Welcome to my Sweet Shop!",
+			"game": "Cooking Mama 6: Sweet Shop (3DS)",
+			"file": "CM6/Title.mp3"
+		},
+		{
+			"name": "What do you want to cook today?",
+			"game": "Cooking Mama 6: Sweet Shop (3DS)",
+			"file": "CM6/Menu.mp3"
+		},
+		{
+			"name": "Shop and Chop!",
+			"game": "Cooking Mama 6: Sweet Shop (3DS)",
+			"file": "CM6/ShopAndChop.mp3"
+		},
+		{
+			"name": "My Diary",
+			"game": "Cooking Mama 6: Sweet Shop (3DS)",
+			"file": "CM6/PicturesBook.mp3"
+		},
+		{
+			"name": "Traveling",
+			"game": "Cooking Mama 6: Sweet Shop (3DS)",
+			"file": "CM6/Traveling.mp3"
+		}
+	]
+}

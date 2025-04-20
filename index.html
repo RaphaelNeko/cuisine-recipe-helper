@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cooking Mama Cuisine | Recipe Helper</title>
+		<link rel="shortcut icon" href="assets/img/tex_mama_osusume_00_00.png" type="image/x-icon">
+		<link rel="stylesheet" href="assets/style.css">
+		<script src="assets/scripts/music-player.js" defer></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<audio controls id="mp-audio-player">
+			<source id="mp-audio-source" src="">
+		</audio>
+		<nav>
+			<img src="assets/img/tex_title_BG_00.png" class="background">
+			<img src="assets/img/tex_title_LOGO.png" class="logo">
+
+			<div class="right-side" style="display: flex; align-items: center;">
+				<div class="music-player">
+					<img src="assets/img/container_music_player.png" class="mp-background">
+					<p id="music-player-text">Music player stopped.</p>
+					<div class="control">
+						<button onclick="previousButton()">
+							<img src="assets/img/button_blue.png">
+							<i class="fa-solid fa-backward"></i>
+						</button>
+						<button onclick="playPauseButton()">
+							<img src="assets/img/button_red.png">
+							<i id="music-player-play-pause" class="fa-solid fa-play"></i>
+						</button>
+						<button onclick="skipButton()">
+							<img src="assets/img/button_green.png">
+							<i class="fa-solid fa-forward"></i>
+						</button>
+					</div>
+				</div>
+
+				<button id="settings">
+					<img src="assets/img/button_settings.png">
+				</button>
+			</div>
+		</nav>
+
+		<main>
+			
+		</main>
+
+		<footer>
+			<p>Made with ❤️ by Raphael Neko 🐱</p>
+			<p>Not affiliated with Office Create!</p>
+		</footer>
+	</body>
+</html>

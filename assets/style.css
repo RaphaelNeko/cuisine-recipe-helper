@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	cursor: url("../assets/img/cursor.png"), auto;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+body {
+	background: #fff;
+	color: #111;
+	-webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+	font-size: 1rem;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+}
+
+button {
+	cursor: pointer;
+}
+
+audio#mp-audio-player {
+	display: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+nav img.background {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	opacity: .6;
+	z-index: -1;
+}
+
+nav img.logo {
+	height: 100px;
+}
+
+nav div.music-player {
+	position: relative;
+}
+
+nav div.music-player img.mp-background {
+	height: 90px;
+	margin-bottom: -3px;
+}
+
+nav div.music-player p {
+	position: absolute;
+	left: 35px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 0.7rem;
+	line-height: 1rem;
+}
+
+nav div.music-player div.control {
+	position: absolute;
+	right: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+}
+
+nav div.music-player div.control button {
+	border: none;
+	background: none;
+	position: relative;
+}
+
+nav div.music-player div.control button img {
+	height: 50px;
+	margin: -5px;
+	margin-bottom: -8px;
+}
+
+nav div.music-player div.control button i {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-shadow: #00000055 0 2px 5px;
+}
+
+nav button#settings {
+	border: none;
+	background: none;
+}
+
+nav button#settings img {
+	height: 100px;
+}
+
+main {
+	min-height: calc(100vh - 110px);
+	backdrop-filter: blur(20px) brightness(1.4);
+}
+
+
+
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	padding: 15px 0;
+}
