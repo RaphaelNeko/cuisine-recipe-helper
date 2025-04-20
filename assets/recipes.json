@@ -1,0 +1,160 @@
+{
+	"cookbooks": [
+		{
+			"bookName": "Beef Recipes",
+			"bookIcon": "beef",
+			"bookStyle": "blue",
+			"recipes": [
+				{
+					"recipeName": "Unknown 1",
+					"hasAlternative": false,
+					"ingredients": [
+						"apple",
+						"blender",
+						"cheese",
+						"chocolate",
+						"spices"
+					]
+				},
+				{
+					"recipeName": "Unknown 2",
+					"hasAlternative": false,
+					"ingredients": [
+						"ice"
+					]
+				},
+				{
+					"recipeName": "Unknown 3",
+					"hasAlternative": true,
+					"ingredients": [
+						"chicken",
+						"pot",
+						"blender"
+					]
+				},
+				{
+					"recipeName": "",
+					"hasAlternative": false,
+					"ingredients": []
+				}
+			]
+		},
+		{
+			"bookName": "Pork Recipes",
+			"bookIcon": "pork",
+			"bookStyle": "green_large",
+			"recipes": [
+				{
+					"recipeName": "Unknown 1",
+					"hasAlternative": false,
+					"ingredients": [
+						"apple",
+						"blender",
+						"cheese",
+						"chocolate",
+						"spices"
+					]
+				},
+				{
+					"recipeName": "Unknown 2",
+					"hasAlternative": false,
+					"ingredients": [
+						"ice"
+					]
+				},
+				{
+					"recipeName": "Unknown 3",
+					"hasAlternative": true,
+					"ingredients": [
+						"chicken",
+						"pot",
+						"blender"
+					]
+				},
+				{
+					"recipeName": "",
+					"hasAlternative": false,
+					"ingredients": []
+				}
+			]
+		},
+		{
+			"bookName": "Chicken Recipes",
+			"bookIcon": "chicken",
+			"bookStyle": "pink_dots",
+			"recipes": [
+				{
+					"recipeName": "Unknown 1",
+					"hasAlternative": false,
+					"ingredients": [
+						"apple",
+						"blender",
+						"cheese",
+						"chocolate",
+						"spices"
+					]
+				},
+				{
+					"recipeName": "Unknown 2",
+					"hasAlternative": false,
+					"ingredients": [
+						"ice"
+					]
+				},
+				{
+					"recipeName": "Unknown 3",
+					"hasAlternative": true,
+					"ingredients": [
+						"chicken",
+						"pot",
+						"blender"
+					]
+				},
+				{
+					"recipeName": "",
+					"hasAlternative": false,
+					"ingredients": []
+				}
+			]
+		},
+		{
+			"bookName": "Test Cookbook",
+			"bookIcon": "apple",
+			"bookStyle": "special",
+			"recipes": [
+				{
+					"recipeName": "Unknown 1",
+					"hasAlternative": false,
+					"ingredients": [
+						"apple",
+						"blender",
+						"cheese",
+						"chocolate",
+						"spices"
+					]
+				},
+				{
+					"recipeName": "Unknown 2",
+					"hasAlternative": false,
+					"ingredients": [
+						"ice"
+					]
+				},
+				{
+					"recipeName": "Unknown 3",
+					"hasAlternative": true,
+					"ingredients": [
+						"chicken",
+						"pot",
+						"blender"
+					]
+				},
+				{
+					"recipeName": "",
+					"hasAlternative": false,
+					"ingredients": []
+				}
+			]
+		}
+	]
+}

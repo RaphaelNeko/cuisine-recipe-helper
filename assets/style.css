@@ -324,13 +324,15 @@ div.cookbook-modal {
 	flex-direction: column;
 	align-items: center;
 	gap: 70px;
-	overflow-y: scroll;
+	overflow-y: auto;
+	scale: 0.75;
 }
 
 div.cookbook-modal.opened {
 	opacity: 1;
 	background-color: #ffffff77;
 	pointer-events: all;
+	scale: 1;
 }
 
 body.dark-theme div.cookbook-modal.opened {
@@ -368,6 +370,11 @@ div.cookbook-modal div.recipe {
 
 div.cookbook-modal div.recipe p {
 	text-align: left;
+	filter: blur(5px);
+}
+
+body.show-spoilers div.cookbook-modal div.recipe p {
+	filter: blur(0);
 }
 
 div.cookbook-modal div.recipe div.ingredients {
