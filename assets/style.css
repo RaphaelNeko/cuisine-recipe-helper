@@ -12,6 +12,12 @@ body {
 	background: #fff;
 	color: #111;
 	-webkit-font-smoothing: antialiased;
+	transition: background 200ms ease-in-out;
+	position: relative;
+}
+
+body.dark-theme {
+	background: #111;
 }
 
 body,
@@ -26,6 +32,10 @@ button {
 	cursor: pointer;
 }
 
+p {
+	transition: color 200ms ease-in-out;
+}
+
 audio#mp-audio-player {
 	display: none;
 }
@@ -34,7 +44,12 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: relative;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	z-index: 1;
 }
 
 nav img.background {
@@ -44,7 +59,7 @@ nav img.background {
 	top: 0;
 	width: 100%;
 	opacity: .6;
-	z-index: -1;
+	z-index: -5;
 }
 
 nav img.logo {
@@ -101,6 +116,12 @@ nav div.music-player div.control button i {
 nav button#settings {
 	border: none;
 	background: none;
+	z-index: 5;
+	transition: transform 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav button#settings:hover {
+	transform: scale(1.1);
 }
 
 nav button#settings img {
@@ -110,10 +131,256 @@ nav button#settings img {
 main {
 	min-height: calc(100vh - 110px);
 	backdrop-filter: blur(20px) brightness(1.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.cookbooks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+div.cookbooks a {
+	position: relative;
+	overflow: hidden;
+	transition: transform 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+div.cookbooks a:hover {
+	transform: scale(1.1) rotate(-5deg);
+}
+
+div.cookbooks a img {
+	max-width: 300px;
+	aspect-ratio: 1/1;
+	object-fit: contain;
+}
+
+div.cookbooks a.basic img {
+	max-width: 260px;
+}
+
+div.cookbooks a p {
+	position: absolute;
+	top: 66px;
+	text-align: center;
+	width: 100%;
+	font-weight: 900;
+}
+
+div.cookbooks a.large p {
+	top: 97px;
+}
+
+div.cookbooks a.dots p {
+	top: 76px;
+	left: 12px;
+}
+
+div.cookbooks a.special p {
+	top: 81px;
+	left: 4px;
+}
+
+div.cookbooks a p.count {
+	top: unset;
+	bottom: 45px;
+	left: unset;
+	right: 25px;
+	text-align: right;
+	width: unset;
+	font-size: 2rem;
+	letter-spacing: -0.2rem;
+}
+
+div.cookbooks a.large p.count {
+	bottom: 75px;
+}
+
+div.cookbooks a.dots p.count {
+	bottom: 55px;
+}
+
+div.cookbooks a.special p.count {
+	right: 30px;
+	bottom: 60px;
+}
+
+div.cookbooks a img.icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, calc(-50% + 42px));
+	width: 100px;
+}
+
+div.cookbooks a.large img.icon {
+	transform: translate(-50%, calc(-50% + 35px));
+}
+
+div.cookbooks a.dots img.icon {
+	transform: translate(-50%, calc(-50% + 45px));
+}
+
+div.cookbooks a.special img.icon {
+	transform: translate(-50%, calc(-50% + 35px));
 }
 
 
+div.settings {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	backdrop-filter: blur(20px);
+	background: #ffffff77;
+	pointer-events: none;
+	opacity: 0;
+	transition: all 200ms ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+body.dark-theme div.settings {
+	background: #000000dd;
+	color: #fff;
+}
+
+div.settings.opened {
+	pointer-events: all;
+	opacity: 1;
+}
+
+div.setting {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+div.setting button {
+	width: 50px;
+	aspect-ratio: 1/1;
+	background: url('../assets/img/button_red.png');
+	background-size: contain;
+	border: none;
+	position: relative;
+}
+
+div.setting button.enabled {
+	background: url('../assets/img/button_green.png');
+	background-size: contain;
+}
+
+div.setting button span {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 25px;
+	height: 4px;
+	background-color: #fff;
+	box-shadow: #00000066 0 2px 3px;
+	border-radius: 10px;
+	transition: all 200ms ease-in-out;
+}
+
+div.setting button span:nth-child(1) {
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+div.setting button span:nth-child(2) {
+	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+div.setting button.enabled span:nth-child(1) {
+	width: 20px;
+	transform: translate(calc(-50% + 3px), -50%) rotate(-55deg);
+}
+
+div.setting button.enabled span:nth-child(2) {
+	width: 10px;
+	transform: translate(calc(-50% - 5px), calc(-50% + 4px)) rotate(45deg);
+}
+
+
+div.cookbook-modal {
+	position: fixed;
+	top: 104px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	pointer-events: none;
+	opacity: 0;
+	background-color: transparent;
+	backdrop-filter: blur(20px);
+	transition: all 200ms ease-in-out;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 70px;
+	overflow-y: scroll;
+}
+
+div.cookbook-modal.opened {
+	opacity: 1;
+	background-color: #ffffff77;
+	pointer-events: all;
+}
+
+body.dark-theme div.cookbook-modal.opened {
+	background-color: #000000dd;
+}
+
+div.cookbook-modal button.close {
+	width: 80px;
+	aspect-ratio: 1/1;
+	background: url('../assets/img/button_close.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+
+}
+
+div.cookbook-modal p#book-title {
+	margin-top: 50px;
+	font-size: 2rem;
+	font-weight: 900;
+	border-image: url('../assets/img/info_board_dish_01_00.png') 199 fill / 56px / 40px 60px round;
+}
+
+div.cookbook-modal div.recipe {
+	border-image: url('../assets/img/info_board_dish_01_01.png') 199 fill / 40px / 30px 40px round;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: calc(100% - 200px);
+	gap: 25px;
+}
+
+div.cookbook-modal div.recipe p {
+	text-align: left;
+}
+
+div.cookbook-modal div.recipe div.ingredients {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+div.cookbook-modal div.recipe div.ingredients img {
+	width: 75px;
+}
 
 footer {
 	display: flex;

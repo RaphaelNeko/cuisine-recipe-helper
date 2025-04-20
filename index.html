@@ -7,12 +7,14 @@
 		<link rel="shortcut icon" href="assets/img/tex_mama_osusume_00_00.png" type="image/x-icon">
 		<link rel="stylesheet" href="assets/style.css">
 		<script src="assets/scripts/music-player.js" defer></script>
+		<script src="assets/scripts/settings.js" defer></script>
+		<script src="assets/scripts/cookbook.js" defer></script>
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
 	<body>
 		<audio controls id="mp-audio-player">
-			<source id="mp-audio-source" src="">
+			<source id="mp-audio-source" src>
 		</audio>
 		<nav>
 			<img src="assets/img/tex_title_BG_00.png" class="background">
@@ -38,15 +40,100 @@
 					</div>
 				</div>
 
-				<button id="settings">
+				<button id="settings" onclick="toggleSettingsVisibility()">
 					<img src="assets/img/button_settings.png">
 				</button>
 			</div>
 		</nav>
 
 		<main>
-			
+			<div class="cookbooks">
+				<a class="basic" onclick="openCookbook()">
+					<img src="assets/img/cookbooks/blue.png">
+					<img src="assets/img/cookbooks/icons/beef.png" class="icon">
+					<p>Beef Recipes</p>
+					<p class="count">0/4</p>
+				</a>
+				<a class="large">
+					<img src="assets/img/cookbooks/green_large.png">
+					<img src="assets/img/cookbooks/icons/pork.png" class="icon">
+					<p>Pork Recipes</p>
+					<p class="count">0/4</p>
+				</a>
+				<a class="dots">
+					<img src="assets/img/cookbooks/pink_dots.png">
+					<img src="assets/img/cookbooks/icons/chicken.png" class="icon">
+					<p>Chicken Recipes</p>
+					<p class="count">0/4</p>
+				</a>
+				<a class="special">
+					<img src="assets/img/cookbooks/special.png">
+					<img src="assets/img/cookbooks/icons/apple.png" class="icon">
+					<p>Apple Recipes</p>
+					<p class="count">0/4</p>
+				</a>
+			</div>
 		</main>
+
+		<div class="cookbook-modal" id="cookbook-modal">
+			<p id="book-title">Cookbook Recipes</p>
+			<button class="close" onclick="closeCookbook()"></button>
+			<div class="recipe">
+				<p>Recipe name</p>
+				<div class="ingredients">
+					<img src="assets/img/cookbooks/icons/apple.png">
+					<img src="assets/img/cookbooks/icons/asian.png">
+					<img src="assets/img/cookbooks/icons/beans.png">
+					<img src="assets/img/cookbooks/icons/beef.png">
+				</div>
+			</div>
+			<div class="recipe">
+				<p>Recipe name</p>
+				<div class="ingredients">
+					<img src="assets/img/cookbooks/icons/apple.png">
+					<img src="assets/img/cookbooks/icons/asian.png">
+					<img src="assets/img/cookbooks/icons/beans.png">
+					<img src="assets/img/cookbooks/icons/beef.png">
+				</div>
+			</div>
+			<div class="recipe">
+				<p>Recipe name</p>
+				<div class="ingredients">
+					<img src="assets/img/cookbooks/icons/apple.png">
+					<img src="assets/img/cookbooks/icons/asian.png">
+					<img src="assets/img/cookbooks/icons/beans.png">
+					<img src="assets/img/cookbooks/icons/beef.png">
+				</div>
+			</div>
+			<div class="recipe">
+				<p>Recipe name</p>
+				<div class="ingredients">
+					<img src="assets/img/cookbooks/icons/apple.png">
+					<img src="assets/img/cookbooks/icons/asian.png">
+					<img src="assets/img/cookbooks/icons/beans.png">
+					<img src="assets/img/cookbooks/icons/beef.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="settings" id="settings-modal">
+			<p style="font-size: 2rem;">This is the settings</p>
+			<p>Coming soon...</p>
+			<div class="setting">
+				<p>Hide recipe spoilers</p>
+				<button class="enabled" id="setting-spoilers" onclick="toggleSpoilers()">
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+			<div class="setting">
+				<p>Dark theme</p>
+				<button class id="setting-dark-theme" onclick="toggleDarkTheme()">
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</div>
 
 		<footer>
 			<p>Made with ❤️ by Raphael Neko 🐱</p>
