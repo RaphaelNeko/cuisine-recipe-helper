@@ -50,6 +50,11 @@ nav {
 	right: 0;
 	overflow: hidden;
 	z-index: 1;
+	backdrop-filter: blur(20px) brightness(1.5);
+}
+
+body.dark-theme nav {
+	backdrop-filter: blur(20px) brightness(0.4);
 }
 
 nav img.background {
@@ -130,7 +135,6 @@ nav button#settings img {
 
 main {
 	min-height: calc(100vh - 110px);
-	backdrop-filter: blur(20px) brightness(1.4);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -141,6 +145,7 @@ div.cookbooks {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
 
 div.cookbooks a {
@@ -150,7 +155,7 @@ div.cookbooks a {
 }
 
 div.cookbooks a:hover {
-	transform: scale(1.1) rotate(-5deg);
+	transform: scale(1.03) rotate(-2deg);
 }
 
 div.cookbooks a img {
@@ -396,4 +401,14 @@ footer {
 	align-items: center;
 	gap: 5px;
 	padding: 15px 0;
+	background-color: #eee;
+}
+
+body.dark-theme footer {
+	background-color: #111;
+}
+
+body.dark-theme footer p {
+	color: #fff;
+	opacity: .4;
 }

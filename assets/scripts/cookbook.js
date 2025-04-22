@@ -3,7 +3,7 @@ const cookbook = document.getElementById('cookbook-modal');
 
 initializeCookbooks();
 function initializeCookbooks() {
-	var maxCookbook = 4;
+	var maxCookbook = 12;
 	for (let index = 0; index < maxCookbook; index++) {
 		getCookbookData(index).then(cookbook => {
 			generateCookbook(index, cookbook.bookName, cookbook.bookIcon, cookbook.bookStyle);
