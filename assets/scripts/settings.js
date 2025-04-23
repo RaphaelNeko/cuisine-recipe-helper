@@ -1,6 +1,7 @@
 const settingsMenu = document.getElementById('settings-modal');
 const settingWelcomeText = document.getElementById('setting-welcome-text');
 const settingSpoiler = document.getElementById('setting-spoilers');
+const settingCompletedBooks = document.getElementById('setting-completed-books');
 const settingDarkTheme = document.getElementById('setting-dark-theme');
 
 function toggleSettingsVisibility() {
@@ -15,6 +16,11 @@ function toggleWelcomeText() {
 function toggleSpoilers() {
 	settingSpoiler.classList.toggle('enabled');
 	document.body.classList.toggle('show-spoilers');
+}
+
+function toggleCompletedBooks() {
+	settingCompletedBooks.classList.toggle('enabled');
+	document.body.classList.toggle('hide-completed-cookbooks');
 }
 
 function toggleDarkTheme() {

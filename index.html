@@ -60,6 +60,12 @@
 			<div class="cookbooks" id="cookbooks-container"></div>
 		</main>
 
+		<footer>
+			<p style="font-size: 1.15rem;"><b>Last updated: 04/23/2025</b></p>
+			<p>Made with ❤️ by Raphael Neko 🐱</p>
+			<p>Not affiliated with Office Create!</p>
+		</footer>
+
 		<div class="cookbook-modal" id="cookbook-modal">
 			<p id="book-title">Cookbook Recipes</p>
 			<button class="close" onclick="closeCookbook()"></button>
@@ -118,6 +124,13 @@
 				</button>
 			</div>
 			<div class="setting">
+				<p>Hide completed cookbooks 📚</p>
+				<button class id="setting-completed-books" onclick="toggleCompletedBooks()">
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+			<div class="setting">
 				<p>Dark theme 🌌</p>
 				<button class id="setting-dark-theme" onclick="toggleDarkTheme()">
 					<span></span>
@@ -125,11 +138,5 @@
 				</button>
 			</div>
 		</div>
-
-		<footer>
-			<p style="font-size: 1.15rem;"><b>Last updated: 04/23/2025</b></p>
-			<p>Made with ❤️ by Raphael Neko 🐱</p>
-			<p>Not affiliated with Office Create!</p>
-		</footer>
 	</body>
 </html>
