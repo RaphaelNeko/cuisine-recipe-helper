@@ -17,6 +17,16 @@
 
 ---
 
+## Feature list and TODO:
+- ✅ Global page styling fitting the Cooking Mama Cuisine style.
+- ✅ Music player with various Cooking Mama soundtracks.
+- 🟥 Loading and displaying all the cookbooks and recipes.
+- 🟥 Marking recipes as completed.
+- 🟥 Hide the fully completed cookbooks setting.
+- 🟥 Saving progression and settings to the cache.
+
+---
+
 Entirely made with HTML, CSS, and JS.
 
 ## Credits:
