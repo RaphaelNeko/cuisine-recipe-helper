@@ -136,8 +136,28 @@ nav button#settings img {
 main {
 	min-height: calc(100vh - 110px);
 	display: flex;
+	padding-top: 30px;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+body.dark-theme main {
+	color: #eee;
+}
+
+main div.welcome {
+	max-width: 1000px;
+	padding: 0 10px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-bottom: 20px;
+}
+
+body.hide-welcome main div.welcome {
+	display: none;
 }
 
 div.cookbooks {
@@ -405,7 +425,7 @@ footer {
 }
 
 body.dark-theme footer {
-	background-color: #111;
+	background-color: #050505;
 }
 
 body.dark-theme footer p {

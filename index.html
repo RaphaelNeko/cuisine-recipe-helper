@@ -47,6 +47,16 @@
 		</nav>
 
 		<main>
+			<div class="welcome">
+				<h2 style="text-align: center; padding-bottom: 20px;">Welcome to the Cuisine recipe helper!</h2>
+				<p>🍳 - This web page is a tool that let you keep track of all the existing recipes in Cooking Mama Cuisine easily.</p>
+				<p>📚 - Open one of the cookbook below to see the ingredients needed to find the recipes you are currently missing.</p>
+				<p>👀 - By default, the recipe names are hidden. Mark a recipe as unlocked to see its name. You can also go to the settings in the top right corner to disable the "Hide recipe spoilers" option and see all the recipe names directly.</p>
+				<p>🔄 - Missing recipes will be added to this website as the updates of Cooking Mama releases, so stay tuned!</p>
+				<p>⚠️ - The web page stores your progress on your web browser's cache. If you reset your browser's cache, all progress will be lost!</p>
+				<p>🎵 - You can also find more than +120 soundtracks from various Cooking Mama games to listen and enjoy here!</p>
+				<p>✨ - Hop in the settings to disable this "Welcome text" and only see the cookbook!</p>
+			</div>
 			<div class="cookbooks" id="cookbooks-container"></div>
 		</main>
 
@@ -92,17 +102,23 @@
 		</div>
 
 		<div class="settings" id="settings-modal">
-			<p style="font-size: 2rem;">This is the settings</p>
-			<p>Coming soon...</p>
+			<p style="font-size: 2rem; padding-bottom: 20px;">Settings</p>
 			<div class="setting">
-				<p>Hide recipe spoilers</p>
+				<p>Show "Welcome text" ✨</p>
+				<button class="enabled" id="setting-welcome-text" onclick="toggleWelcomeText()">
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+			<div class="setting">
+				<p>Hide recipe spoilers 👀</p>
 				<button class="enabled" id="setting-spoilers" onclick="toggleSpoilers()">
 					<span></span>
 					<span></span>
 				</button>
 			</div>
 			<div class="setting">
-				<p>Dark theme</p>
+				<p>Dark theme 🌌</p>
 				<button class id="setting-dark-theme" onclick="toggleDarkTheme()">
 					<span></span>
 					<span></span>
@@ -111,6 +127,7 @@
 		</div>
 
 		<footer>
+			<p style="font-size: 1.15rem;"><b>Last updated: 04/23/2025</b></p>
 			<p>Made with ❤️ by Raphael Neko 🐱</p>
 			<p>Not affiliated with Office Create!</p>
 		</footer>
